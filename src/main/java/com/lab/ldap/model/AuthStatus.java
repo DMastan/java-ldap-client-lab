@@ -1,0 +1,12 @@
+package com.lab.ldap.model;
+
+public enum AuthStatus {
+    SUCCESS,
+    INVALID_CREDENTIALS,
+    USER_NOT_FOUND,
+    ACCOUNT_LOCKED,
+    PASSWORD_EXPIRED,
+    PASSWORD_RESET_REQUIRED,
+    GROUP_NOT_AUTHORIZED,
+    COMMUNICATION_ERROR
+}
